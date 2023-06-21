@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-public class Home extends javax.swing.JFrame {
+public final class Home extends javax.swing.JFrame {
     
     FuncionarioControler controlerF = new FuncionarioControler();
     TipoDocumentoControler listaTiposId = new TipoDocumentoControler();
@@ -435,7 +435,6 @@ public class Home extends javax.swing.JFrame {
         DefaultTableModel modeloListo = controlerF.listarFuncionarios();
         JTlistafuncionarios.setModel(modeloListo);
     }//GEN-LAST:event_JBrecargarActionPerformed
-
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

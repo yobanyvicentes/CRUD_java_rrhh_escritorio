@@ -11,10 +11,10 @@ import javax.sql.*;
 
 public class FuncionarioDaoImp implements FuncionarioDao {
 
-    private Conexion conexion = new Conexion();
+    private final Conexion conexion = new Conexion();
     private Statement st;
     private ResultSet rS;
-    private String sqlfindall = "SELECT * FROM funcionarios";
+    private final String sqlfindall = "SELECT * FROM funcionarios";
 
 //FINDALL
     @Override

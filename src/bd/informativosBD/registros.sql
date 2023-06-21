@@ -1,13 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-/**
- * Author:  YOBANY
- * Created: 12/11/2022
- */
-
 USE mydb;
 
 INSERT INTO estados_civiles (nombre, descripcion)

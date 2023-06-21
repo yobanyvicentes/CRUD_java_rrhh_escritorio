@@ -1,10 +1,6 @@
 package recursos_humanosiud_app;
 
 import bd.Conexion;
-import dao.TipoDocumentoDaoImp;
-import java.util.List;
-import javax.swing.JFrame;
-import models.TipoDocumento;
 import vistas.Home;
 /**
  *

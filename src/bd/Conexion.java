@@ -16,9 +16,9 @@ import java.util.logging.Logger;
  */
 public class Conexion {
 
-    private static final String URL = "jdbc:mysql://localhost:3308/mydb?serverTimezone=America/Bogota";
+    private static final String URL = "jdbc:mysql://localhost:3306/mydb?serverTimezone=America/Bogota";
     private static final String USER = "root";
-    private static final String PASSWORD= "Tecnologia2022*";
+    private static final String PASSWORD= "1111";
     
     private Connection con;
     
@@ -28,6 +28,7 @@ public class Conexion {
             con.createStatement();
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());
+	    System.out.println("error en la conexión");
         }
     }
 
