@@ -1,0 +1,14 @@
+# 1.Instala XAMPP y una vez abierto, dale start a apache y a mysql
+# 2.Configurar la conexión a la base de datos:
+Abre el proyecto y xe a la carpeta ./src/bd/Conexion.java y configura la rura, usuario y constraseña de la BD:
+private static final String URL = "jdbc:mysql://localhost:3306/mydb?serverTimezone=America/Bogota";
+private static final String USER = "root";
+private static final String PASSWORD= "1111";
+
+# 3.Ve a la carpeta ./src/bd/informativosBD y abre el archivo db_and_tables.sql
+es un archivo sql que contiene el script para crear la base de datos y las tablas necesarias, así que lo puedes correr en interface visual por medio un archivo sql php myadmin.
+
+# 4.Ve a la carpeta ./src/bd/informativosBD y abre el archivo registros.sql
+es un archivo sql que contiene el script para crear registros de prueba en la App, así que lo puedes correr en interface visual por medio un archivo sql php myadmin.
+
+# 5.Corre la App
