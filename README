@@ -1,3 +1,5 @@
+Autor: Yobany Vicentes:
+
 # 1.Instala XAMPP y una vez abierto, dale start a apache y a mysql
 # 2.Configurar la conexión a la base de datos:
 Abre el proyecto y ve a la carpeta ./src/bd/Conexion.java y configura la ruta, usuario y contraseña de la BD:
